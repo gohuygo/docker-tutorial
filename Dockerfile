@@ -1,6 +1,7 @@
 # Specify base image
 FROM node:alpine
 
+COPY ./ ./
 # Install dependencies
 RUN npm install
 
